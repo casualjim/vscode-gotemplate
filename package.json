@@ -1,0 +1,35 @@
+{
+	"name": "gotemplate",
+	"displayName": "gotemplate-syntax",
+	"description": "Language support for go text/template",
+	"version": "0.0.1",
+	"publisher": "casualjim",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "gotemplate",
+			"aliases": ["Golang Text Template", "gotemplate"],
+			"extensions": [".gotmpl"],
+			"configuration": "./gotemplate.configuration.json"
+		}, {
+			"id": "gohtml",
+			"aliases": ["Golang HTML Template", "gohtml"],
+			"extensions": [".gohtml"],
+			"configuration": "./gotemplate.configuration.json"
+		}],
+		"grammars": [{
+			"language": "gotemplate",
+			"scopeName": "source.gotemplate",
+			"path": "./syntaxes/gotemplate.tmLanguage"
+		}, {
+			"language": "gohtml",
+			"scopeName": "source.gohtml",
+			"path": "./syntaxes/gohtml.tmLanguage"
+		}]
+	}
+}
