@@ -20,7 +20,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>text.html.gohtml</string>
+	<string>source.gohtml</string>
 	<key>uuid</key>
 	<string>78c486ec-0101-11e2-a85a-00262d996a67</string>
 </dict>
