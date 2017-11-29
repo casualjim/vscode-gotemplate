@@ -33,6 +33,18 @@
                     ".gohtml"
                 ],
                 "configuration": "./gotemplate.configuration.json"
+            },
+            {
+                "id": "goyaml",
+                "aliases": [
+                    "Golang YAML Template",
+                    "goyaml"
+                ],
+                "extensions": [
+                    ".yml.tpl",
+                    ".yaml.tpl"
+                ],
+                "configuration": "./gotemplate.configuration.json"
             }
         ],
         "grammars": [
@@ -45,6 +57,11 @@
                 "language": "gohtml",
                 "scopeName": "source.gohtml",
                 "path": "./syntaxes/gohtml.tmLanguage"
+            },
+            {
+                "language": "goyaml",
+                "scopeName": "source.goyaml",
+                "path": "./syntaxes/goyaml.tmLanguage"
             }
         ]
     }
