@@ -53,7 +53,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(if|else|range|template|with|end|nil|with|define)\b</string>
+					<string>\b(if|else|range|template|with|end|nil|with|define|block)\b</string>
 					<key>name</key>
 					<string>keyword.control.gotemplate</string>
 				</dict>
