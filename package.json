@@ -45,6 +45,18 @@
                     ".yaml.tpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
+            },
+            {
+                "id": "gojson",
+                "aliases": [
+                    "Golang JSON Template",
+                    "gojson"
+                ],
+                "extensions": [
+                    ".json.tpl",
+                    ".json.tmpl"
+                ],
+                "configuration": "./gotemplate.configuration.json"
             }
         ],
         "grammars": [
@@ -62,6 +74,11 @@
                 "language": "goyaml",
                 "scopeName": "source.goyaml",
                 "path": "./syntaxes/goyaml.tmLanguage"
+            },
+            {
+                "language": "gojson",
+                "scopeName": "source.gojson",
+                "path": "./syntaxes/gojson.tmLanguage"
             }
         ]
     }
