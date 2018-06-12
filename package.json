@@ -42,7 +42,9 @@
                 ],
                 "extensions": [
                     ".yml.tpl",
-                    ".yaml.tpl"
+                    ".yaml.tpl",
+                    ".yml.tmpl",
+                    ".yaml.tmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
