@@ -13,6 +13,17 @@
     "contributes": {
         "languages": [
             {
+                "id": "gots",
+                "aliases": [
+                    "Golang TypeScript Template",
+                    "gots"
+                ],
+                "extensions": [
+                    ".gots"
+                ],
+                "configuration": "./gotemplate.configuration.json"
+            },
+            {
                 "id": "gogo",
                 "aliases": [
                     "Golang GO Template",
@@ -73,6 +84,11 @@
             }
         ],
         "grammars": [
+            {
+                "language": "gots",
+                "scopeName": "source.gots",
+                "path": "./syntaxes/gots.tmLanguage"
+            },
             {
                 "language": "gogo",
                 "scopeName": "source.gogo",
