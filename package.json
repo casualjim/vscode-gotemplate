@@ -24,6 +24,17 @@
                 "configuration": "./gotemplate.configuration.json"
             },
             {
+                "id": "gojava",
+                "aliases": [
+                    "Golang Java Template",
+                    "gojava"
+                ],
+                "extensions": [
+                    ".gojava"
+                ],
+                "configuration": "./gotemplate.configuration.json"
+            },
+            {
                 "id": "gogo",
                 "aliases": [
                     "Golang GO Template",
@@ -88,6 +99,11 @@
                 "language": "gots",
                 "scopeName": "source.gots",
                 "path": "./syntaxes/gots.tmLanguage"
+            },
+            {
+                "language": "gojava",
+                "scopeName": "source.gojava",
+                "path": "./syntaxes/gojava.tmLanguage"
             },
             {
                 "language": "gogo",
