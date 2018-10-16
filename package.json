@@ -2,7 +2,7 @@
     "name": "gotemplate",
     "displayName": "gotemplate-syntax",
     "description": "Language support for go text/template",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "casualjim",
     "repository": {
         "type": "git",
@@ -11,7 +11,9 @@
     "engines": {
         "vscode": "^0.10.1"
     },
-    "categories": ["Programming Languages"],
+    "categories": [
+        "Programming Languages"
+    ],
     "contributes": {
         "languages": [
             {
