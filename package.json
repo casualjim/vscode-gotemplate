@@ -4,12 +4,14 @@
     "description": "Language support for go text/template",
     "version": "0.2.0",
     "publisher": "casualjim",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/casualjim/vscode-gotemplate"
+    },
     "engines": {
         "vscode": "^0.10.1"
     },
-    "categories": [
-        "Languages"
-    ],
+    "categories": ["Programming Languages"],
     "contributes": {
         "languages": [
             {
