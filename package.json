@@ -23,7 +23,9 @@
                     "gots"
                 ],
                 "extensions": [
-                    ".gots"
+                    ".gots",
+                    ".ts.tmpl",
+                    ".ts.tpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -34,7 +36,9 @@
                     "gophp"
                 ],
                 "extensions": [
-                    ".gophp"
+                    ".gophp",
+                    ".php.tmpl",
+                    ".php.tpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -45,7 +49,9 @@
                     "gojava"
                 ],
                 "extensions": [
-                    ".gojava"
+                    ".gojava",
+                    ".java.tmpl",
+                    ".java.tpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -56,7 +62,9 @@
                     "gogo"
                 ],
                 "extensions": [
-                    ".gogo"
+                    ".gogo",
+                    ".go.tmpl",
+                    ".go.tpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -67,7 +75,9 @@
                     "gotemplate"
                 ],
                 "extensions": [
-                    ".gotmpl"
+                    ".gotmpl",
+                    ".tmpl",
+                    ".tpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -79,7 +89,9 @@
                 ],
                 "extensions": [
                     ".html",
-                    ".gohtml"
+                    ".gohtml",
+                    ".html.tmpl",
+                    ".html.tpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
