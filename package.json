@@ -30,6 +30,19 @@
                 "configuration": "./gotemplate.configuration.json"
             },
             {
+                "id": "gojs",
+                "aliases": [
+                    "Golang JavaScript Template",
+                    "gojs"
+                ],
+                "extensions": [
+                    ".gojs",
+                    ".js.tmpl",
+                    ".js.tpl"
+                ],
+                "configuration": "./gotemplate.configuration.json"
+            },
+            {
                 "id": "gophp",
                 "aliases": [
                     "Golang PHP Template",
@@ -127,6 +140,11 @@
                 "language": "gots",
                 "scopeName": "source.gots",
                 "path": "./syntaxes/gots.tmLanguage"
+            },
+            {
+                "language": "gojs",
+                "scopeName": "source.gojs",
+                "path": "./syntaxes/gojs.tmLanguage"
             },
             {
                 "language": "gophp",
