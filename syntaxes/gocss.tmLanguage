@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>gocss</string>
+	</array>
+	<key>name</key>
+	<string>GoTPL: css</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.css</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.gotemplate</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.gocss</string>
+	<key>uuid</key>
+	<string>7633844d-6b43-4083-bb54-95a92f8fa0e6</string>
+</dict>
+</plist>

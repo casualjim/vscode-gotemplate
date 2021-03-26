@@ -133,6 +133,20 @@
                     ".json.tmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
+            },
+            {
+                "id": "gocss",
+                "aliases": [
+                    "Golang css Template",
+                    "gocss"
+                ],
+                "extensions": [
+                    ".css",
+                    ".gocss",
+                    ".css.tmpl",
+                    ".css.tpl"
+                ],
+                "configuration": "./gotemplate.configuration.json"
             }
         ],
         "grammars": [
@@ -180,6 +194,11 @@
                 "language": "gojson",
                 "scopeName": "source.gojson",
                 "path": "./syntaxes/gojson.tmLanguage"
+            },
+            {
+                "language": "gocss",
+                "scopeName": "source.gocss",
+                "path": "./syntaxes/gocss.tmLanguage"
             }
         ]
     }
