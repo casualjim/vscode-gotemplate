@@ -25,7 +25,8 @@
                 "extensions": [
                     ".gots",
                     ".ts.tmpl",
-                    ".ts.tpl"
+                    ".ts.tpl",
+                    ".ts.gotmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -38,7 +39,8 @@
                 "extensions": [
                     ".gojs",
                     ".js.tmpl",
-                    ".js.tpl"
+                    ".js.tpl",
+                    ".js.gotmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -51,7 +53,8 @@
                 "extensions": [
                     ".gophp",
                     ".php.tmpl",
-                    ".php.tpl"
+                    ".php.tpl",
+                    ".php.gotmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -64,7 +67,8 @@
                 "extensions": [
                     ".gojava",
                     ".java.tmpl",
-                    ".java.tpl"
+                    ".java.tpl",
+                    ".java.gotmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -104,7 +108,8 @@
                     ".html",
                     ".gohtml",
                     ".html.tmpl",
-                    ".html.tpl"
+                    ".html.tpl",
+                    ".html.gotmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -118,7 +123,8 @@
                     ".yml.tpl",
                     ".yaml.tpl",
                     ".yml.tmpl",
-                    ".yaml.tmpl"
+                    ".yaml.tmpl",
+                    ".yaml.gotmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
@@ -130,7 +136,8 @@
                 ],
                 "extensions": [
                     ".json.tpl",
-                    ".json.tmpl"
+                    ".json.tmpl",
+                    ".json.gotmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             }
