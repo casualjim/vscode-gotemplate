@@ -45,6 +45,20 @@
                 "configuration": "./gotemplate.configuration.json"
             },
             {
+                "id": "godockerfile",
+                "aliases": [
+                    "Golang Dockerfile Template",
+                    "godockerfile"
+                ],
+                "extensions": [
+                    ".godockerfile",
+                    ".Dockerfile.tmpl",
+                    ".Dockerfile.tpl",
+                    ".Dockerfile.gotmpl"
+                ],
+                "configuration": "./gotemplate.configuration.json"
+            },
+            {
                 "id": "gophp",
                 "aliases": [
                     "Golang PHP Template",
@@ -166,6 +180,11 @@
                 "language": "gojs",
                 "scopeName": "source.gojs",
                 "path": "./syntaxes/gojs.tmLanguage"
+            },
+            {
+                "language": "godockerfile",
+                "scopeName": "source.godockerfile",
+                "path": "./syntaxes/godockerfile.tmLanguage"
             },
             {
                 "language": "gophp",
