@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>goR</string>
+	</array>
+	<key>name</key>
+	<string>GoTPL: r</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.r</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.gotemplate</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.goR</string>
+	<key>uuid</key>
+	<string>3aa9d021-eafb-4f95-b87d-2173f8bd19b1</string>
+</dict>
+</plist>
