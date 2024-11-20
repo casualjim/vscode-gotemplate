@@ -73,6 +73,62 @@
                 "configuration": "./gotemplate.configuration.json"
             },
             {
+                "id": "goshell",
+                "aliases": [
+                    "Golang Shell Template",
+                    "goshell",
+                    "goshellscript"
+                ],
+                "extensions": [
+                    ".gosh",
+                    ".sh.tpl",
+                    ".sh.tmpl",
+                    ".sh.gotmpl",
+                    ".bash.tpl",
+                    ".bash.tmpl",
+                    ".bash.gotmpl",
+                    ".zsh.tpl",
+                    ".zsh.tmpl",
+                    ".zsh.gotmpl",
+                    ".fish.tpl",
+                    ".fish.tmpl",
+                    ".fish.gotmpl"
+                ],
+                "filenames": [
+                    ".bashrc.tpl",
+                    ".bashrc.tmpl",
+                    ".bashrc.gotmpl",
+                    ".bash_profile.tpl",
+                    ".bash_profile.tmpl",
+                    ".bash_profile.gotmpl",
+                    ".bash_login.tpl",
+                    ".bash_login.tmpl",
+                    ".bash_login.gotmpl",
+                    ".bash_logout.tpl",
+                    ".bash_logout.tmpl",
+                    ".bash_logout.gotmpl",
+                    ".zshrc.tpl",
+                    ".zshrc.tmpl",
+                    ".zshrc.gotmpl",
+                    ".zprofile.tpl",
+                    ".zprofile.tmpl",
+                    ".zprofile.gotmpl",
+                    ".zlogin.tpl",
+                    ".zlogin.tmpl",
+                    ".zlogin.gotmpl",
+                    ".zlogout.tpl",
+                    ".zlogout.tmpl",
+                    ".zlogout.gotmpl",
+                    ".zshenv.tpl",
+                    ".zshenv.tmpl",
+                    ".zshenv.gotmpl",
+                    "config.fish.tpl",
+                    "config.fish.tmpl",
+                    "config.fish.gotmpl"
+                ],
+                "configuration": "./gotemplate.configuration.json"
+            },
+            {
                 "id": "gophp",
                 "aliases": [
                     "Golang PHP Template",
@@ -199,6 +255,11 @@
                 "language": "godockerfile",
                 "scopeName": "source.godockerfile",
                 "path": "./syntaxes/godockerfile.tmLanguage"
+            },
+            {
+                "language": "goshell",
+                "scopeName": "source.goshell",
+                "path": "./syntaxes/goshell.tmLanguage"
             },
             {
                 "language": "goR",
